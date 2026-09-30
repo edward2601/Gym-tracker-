@@ -1,18 +1,223 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Gym Tracker</title>
-    
+
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
 
-    <h1>Gym Tracker</h1>
+    <div class="app">
 
-    <p>My gym tracking website.</p>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h1 class="logo">GYM<span>TRACKER</span></h1>
+
+            <nav>
+
+                <button class="nav-item active">
+                    🏠 Dashboard
+                </button>
+
+                <button class="nav-item">
+                    🏋️ Workouts
+                </button>
+
+                <button class="nav-item">
+                    💪 Exercises
+                </button>
+
+                <button class="nav-item">
+                    📈 Progress
+                </button>
+
+                <button class="nav-item">
+                    🏆 Personal Records
+                </button>
+
+                <button class="nav-item">
+                    ⚙️ Settings
+                </button>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- Main content -->
+        <main class="main">
+
+            <header>
+
+                <div>
+
+                    <p class="welcome">WELCOME BACK</p>
+
+                    <h2>Your Dashboard</h2>
+
+                </div>
+
+                <button class="profile">
+                    👤
+                </button>
+
+            </header>
+
+
+            <!-- Stats -->
+
+            <section class="stats">
+
+                <div class="card">
+
+                    <p>STRENGTH SCORE</p>
+
+                    <h3>742</h3>
+
+                    <span>↑ 24 this month</span>
+
+                </div>
+
+
+                <div class="card">
+
+                    <p>WEEKLY VOLUME</p>
+
+                    <h3>18,450 kg</h3>
+
+                    <span>↑ 8.2%</span>
+
+                </div>
+
+
+                <div class="card">
+
+                    <p>PERSONAL RECORDS</p>
+
+                    <h3>12</h3>
+
+                    <span>🏆 This year</span>
+
+                </div>
+
+            </section>
+
+
+            <!-- Main grid -->
+
+            <section class="dashboard-grid">
+
+
+                <!-- Recent workout -->
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <h3>Recent Workout</h3>
+
+                        <button>View all</button>
+
+                    </div>
+
+                    <p class="workout-name">Push Day</p>
+
+                    <div class="exercise">
+
+                        <strong>Bench Press</strong>
+
+                        <span>80 kg × 8</span>
+
+                    </div>
+
+                    <div class="exercise">
+
+                        <strong>Overhead Press</strong>
+
+                        <span>45 kg × 8</span>
+
+                    </div>
+
+                    <div class="exercise">
+
+                        <strong>Incline Dumbbell Press</strong>
+
+                        <span>30 kg × 10</span>
+
+                    </div>
+
+                    <div class="exercise">
+
+                        <strong>Dips</strong>
+
+                        <span>Bodyweight × 12</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick workout -->
+
+                <div class="panel quick">
+
+                    <h3>Ready to train?</h3>
+
+                    <p>Start a new workout and track your progress.</p>
+
+                    <button class="start-button">
+                        + Start Workout
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- Progress -->
+
+            <section class="panel progress">
+
+                <div class="panel-header">
+
+                    <h3>Bench Press Progress</h3>
+
+                    <span>Last 6 months</span>
+
+                </div>
+
+                <div class="fake-chart">
+
+                    <div style="height:35%"></div>
+
+                    <div style="height:42%"></div>
+
+                    <div style="height:48%"></div>
+
+                    <div style="height:55%"></div>
+
+                    <div style="height:64%"></div>
+
+                    <div style="height:72%"></div>
+
+                    <div style="height:80%"></div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
 
 </body>
 
